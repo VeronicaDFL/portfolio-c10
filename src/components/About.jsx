@@ -1,5 +1,5 @@
 import {Container,Row,Col} from "react-bootstrap"
-import pic from "../images/v.jpg"
+import pic from "../images/v2.jpeg"
 export default function About() {
     
     return (

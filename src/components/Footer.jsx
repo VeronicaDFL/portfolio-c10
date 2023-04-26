@@ -1,3 +1,4 @@
+import { Github, Linkedin } from "react-bootstrap-icons";
 export default function Footer () {
     const currentYear = new Date().getFullYear();
     const gitHubLink = "https://github.com/veronicadfl/profile-app";
@@ -5,16 +6,22 @@ export default function Footer () {
         return (
     <footer>
         <p>&copy; {currentYear} </p>
-
         <a href={gitHubLink} 
            target="_blank"
-           rel="noreferrer" >GitHub</a>
+           rel="noreferrer"
+           className= "button-effect" >
+        <Github size ="20" color= "black" />
+           </a>
+
 
            <br />
-
+        
            <a href={Linkedinlink} 
            target="_blank"
-           rel="noreferrer" >Linkedln</a>
+           rel="noreferrer"
+           className= "button-effect" >
+            <Linkedin  size ="20" color = "black"/>
+           </a>
 
 
 
